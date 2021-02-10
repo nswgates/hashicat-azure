@@ -1,8 +1,6 @@
 module "network" {
   source  = "app.terraform.io/NansyGates-training/network/azurerm"
-  version = "3.3.0"
+  version = "3.0.1"
   # insert required variables here
-  variable "esource_group_name" {
-      
-  }
+  variables = "resource_group_name"
 }
